@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Proposal</title>
+<style>
+body{
+  font-family:Arial;
+  text-align:center;
+  background:linear-gradient(135deg,#ffb6c1,#d8b4ff);
+  margin-top:100px;
+}
+button{
+  padding:15px 35px;
+  font-size:20px;
+  border:none;
+  border-radius:30px;
+  margin:20px;
+}
+#yes{
+  background:#a020f0;
+  color:pink ;
+}
+#no{
+  position:absolute;
+}
+</style>
+</head>
+<body>
+
+<h3>A SMALL QUESTION !!
+I don’t know how to say it perfectly, but I really like you. You make my days happier, and I would love to have you in my life. ❤️
+
+<h1>Will you be mine forever sherin ? ❤️</h1>
+
+<button id="no">No</button>
+<button id="yes" onclick="yes()">Yes</button>
+
+<script>
+const no=document.getElementById("no");
+
+no.addEventListener("mouseover",()=>{
+no.style.left=Math.random()*300+"px";
+no.style.top=Math.random()*500+"px";
+});
+
+function yes(){
+alert("Yay! ❤️");
+}
+</script>
+
+</body>
+</html
